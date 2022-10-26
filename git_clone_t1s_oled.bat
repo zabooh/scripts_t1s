@@ -1,10 +1,6 @@
 @ECHO OFF
 
-set H3_GITHUB="https://github.com/Microchip-MPLAB-Harmony"
-set H3_INSTALL="../H3"
-set T1S_OLED_GITHUB="https://github.com/zabooh"
-set T1S_OLED_CLIENT_INSTALL="../client"
-set T1S_OLED_SERVER_INSTALL="../server"
+call set_path.bat
 
 git clone -b "v3.11.0"              %H3_GITHUB%/csp.git  %H3_INSTALL%/csp   
 git clone -b "v3.10.0"              %H3_GITHUB%/core.git %H3_INSTALL%/core    
