@@ -5,6 +5,8 @@ call set_pathes.bat
 git clone -b "client"               %T1S_OLED_GITHUB%/net_10base_t1s_mr.git %T1S_OLED_CLIENT_INSTALL%
 git clone -b "server"               %T1S_OLED_GITHUB%/net_10base_t1s_mr.git %T1S_OLED_SERVER_INSTALL%
 
+git clone                           %T1S_OLED_GITHUB%/tdd.git %TDD_INSTALL%
+
 git clone -b "v3.11.0"              %H3_GITHUB%/csp.git  %H3_INSTALL%/csp   
 git clone -b "v3.10.0"              %H3_GITHUB%/core.git %H3_INSTALL%/core    
 git clone -b "v3.11.1"              %H3_GITHUB%/dev_packs.git %H3_INSTALL%/dev_packs    

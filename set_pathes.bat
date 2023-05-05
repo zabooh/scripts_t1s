@@ -1,5 +1,6 @@
 set H3_GITHUB="https://github.com/Microchip-MPLAB-Harmony"
 set H3_INSTALL="../H3"
+set TDD_INSTALL="../tdd"
 set T1S_OLED_GITHUB="https://github.com/zabooh"
 set T1S_OLED_CLIENT_INSTALL="../client"
 set T1S_OLED_SERVER_INSTALL="../server"
